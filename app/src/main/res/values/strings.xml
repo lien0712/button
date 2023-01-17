@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">buttonradio</string>
+    <string name="order">Order:</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="address">Address</string>
+    <string name="enter_address">Enter address</string>
+    <string name="note">Note</string>
+    <string name="phone">Phone</string>
+    <string name="enter_phone">Enter phone</string>
+    <string name="delivery">Delivery</string>
+    <string name="same_day_service">Same day service</string>
+    <string name="next_day">Next day</string>
+
+    <String-array name="labels_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+    </String-array>
+</resources>
