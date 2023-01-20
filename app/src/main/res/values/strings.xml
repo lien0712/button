@@ -11,6 +11,19 @@
     <string name="delivery">Delivery</string>
     <string name="same_day_service">Same day service</string>
     <string name="next_day">Next day</string>
+    <string name="cake">Cake</string>
+    <string name="donuts">donut</string>
+    <string name="ice_cream">ice_cream</string>
+    <string name="donut_order">Order donut</string>
+    <string name="ice_cream_order">Order ice cream</string>
+    <string name="cake_order">Order cake</string>
+    <string name="order1">Order</string>
+    <string name="status">status</string>
+    <string name="contact">Contact</string>
+    <string name="action_order_message">Orderrrrr</string>
+    <string name="action_status_message">Statussss</string>
+    <string name="action_favourite_message">favouriteeee</string>
+    <string name="action_contact_message">Contactttt</string>
 
     <string-array name="labels_array">
         <item>Home</item>
