@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.DatePickerDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.DatePicker;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -98,7 +100,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                         startActivity(new Intent(this,activityOrder.class));
                     }
                 });
-            case R.id.action_contact:
+                DatePickerDialog date= new DatePickerDialog(this, (view,year,month,dayOfMonth
+                )->{},2022,7,12);
+
+           case R.id.action_contact:
                 displayToast(getString(R.string.action_contact_message));
             case R.id.action_setting:
                 displayToast(getString(R.string.action_status_message));
